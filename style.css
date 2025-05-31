@@ -154,3 +154,17 @@ footer {
     font-size: 1rem;
     line-height: 1.6;
 }
+
+.youtube-logo {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 10px;
+}
+.youtube-logo img {
+    width: 160px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+.youtube-logo img:hover {
+    transform: scale(1.05);
+}
